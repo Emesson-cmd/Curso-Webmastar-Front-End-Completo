@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;;
+}
+
+html, body {
+    height: 100%;
+}
+
+/*
+*
+*
+Estilo para o conteúdo do nosso site
+*
+*
+*/
+
+/*
+table{
+    width: 900px;
+    border-collapse: collapse; // Se houver bordas colidindo, funde elas.
+    margin: 0 auto;
+}
+
+table tr td{
+	border: 1px solid black;
+}
+*/
+
+.menu-fixed{
+    /* position: fixed; */ /*Baseado na tela (fixa ao rolar) */ /**/
+    /* position: absolute; */  /*Baseado na página (nao fixa ao rolar) */
+    /* position: relative; */ /* Relativo ao local onde ele estava */
+    position: static; /* padrão */
+    /*
+    top: 100px;
+    left: 0;
+    bottom: 0%;
+    right: 0;
+    */
+    width: 100%;
+    height: 200px;
+    background-color: #069;
+}
+
+.box{
+    width: 100%;
+    height: 200px;
+    background-color: red;
+}
+
+.box p{
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
