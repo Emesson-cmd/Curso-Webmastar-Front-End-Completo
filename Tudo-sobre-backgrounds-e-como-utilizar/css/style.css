@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;;
+}
+
+html, body {
+    height: 100%;
+}
+
+/*
+*
+*
+Estilo para o conteúdo do nosso site
+*
+*
+*/
+
+.bg {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #ccc;
+    background-image: url(../imagens/installdockercompose.png);
+    background-size: contain; /* cover -> faz a imagem cobrir o background, contain -> faz a imagem caber no background*/
+    background-position: top;
+    background-repeat: repeat-y; /* no-repeat, repeat-x, repeat-y*/
+    border: 5px solid black;
+}
