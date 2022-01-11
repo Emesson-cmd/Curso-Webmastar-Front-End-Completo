@@ -178,3 +178,31 @@ p::before{
 .parent p:first-child{
     background-color:red;
 }
+
+.meu-link{
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: blue;
+    vertical-align: center;
+    font-weight: bolder;
+}
+
+.meu-link:hover{
+    font-size: 30px;
+    color: lawngreen;
+}
+
+.meu-link:visited{
+    color: yellow;
+}
+
+.meu-link:link{
+    color: yellow;
+}
+
+.meu-link:active{
+    color: yellow;
+}
