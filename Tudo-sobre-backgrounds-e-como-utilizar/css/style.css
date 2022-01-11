@@ -16,6 +16,8 @@ Estilo para o conteúdo do nosso site
 */
 
 /*
+MANIPULAR UMA IMAGEM NUMA DIV
+
 .bg {
     width: 500px;
     height: 500px;
@@ -29,18 +31,22 @@ Estilo para o conteúdo do nosso site
 }
 */
 
-.bg {
 /*
+EFEITO PARALAX - IMAGEM DESCE E DESAPARECE
+
+.bg {
     width: 100%;
     height: 800px;
     background-image: url('../imagens/sunset.jpg.jpg');
     background-color: brown;
     background-size: 100% 100%;
-    background-attachment:  fixed;  Efeito paralax 
+    background-attachment:  fixed;  
     background-repeat: no-repeat;
     background-position: center;
-*/
 }
+*/
+
+/* FAZER IMAGENS SE CENTRALIZAREM */
 
 .box{
     width: 100%;
@@ -52,18 +58,17 @@ Estilo para o conteúdo do nosso site
 .item {
     background-color: green;
     width: 100%;
-    margin-right: -4px;
     display: inline-block;
 }
 
-    .item p {
-        display: inline-block;
+.item p {
+    display: inline-block;
     text-align: left;
     background-color: purple;
 }
 
 .item img {
-    width: 25%;
+    width: 10%;
 }
 
 .last {

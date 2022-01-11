@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;;
+}
+
+html, body {
+    height: 100%;
+}
+
+/*
+
+
+.teste, .teste2, .teste3 {
+    width: 300px;
+    height: 300px;
+    background-color: #ccc;
+    display: inline-block;
+    margin: 40px;
+}
+
+.teste2 {
+    background-color: rgb(98, 98, 98);
+}
+
+.teste3 {
+    background-color: rgb(50, 50, 50);
+}
+
+*/
+
+/* PSEUDO CLASSES - DEPOIS DO ":", TEM UM FUNÇÃO ESPECÍFICA  */
+/* O HOVER FAZ COM QUE AO PASSAR O MOUSE SOBRE O ELEMENTO, ELE ASSUMA OUTRA COR */
+
+/*
+.teste:hover {
+    background-color: blue;
+    height: 900px;
+}
+
+.teste:hover, .teste2, .teste3 {
+    vertical-align: top;
+}
+*/
+
+/* MOUSE PRESSIONADO EM CIMA DO ELEMENTO */
+
+/*
+.teste:active{
+    background-color: black;
+}
+*/
+
+/*
+
+O FOCUS É UTILIZADO NOS ELEMENTOS DE FORMULÁRIO
+AO SER CLICADO ELE TROCA DE COR
+
+.teste-input{
+    display: block;
+    margin-top: 100px;
+    margin: 40px;
+}
+
+input[type="textarea"]{
+    width: 600px;
+    height: 300px;
+}
+
+.teste-input:focus{
+    background-color: gray;
+}
+*/
+
+/*
+
+VISITED -> QUANDO CLICA NO LINK
+
+.link1:visited{
+    color: black;
+}
+
+LINK -> MUDA A COR DO LINK
+
+.link1:link{
+    color: yellow;
+}
+
+*/
+
+/* PEGA ELEMENTOS DE ACORDO COM A POSIÇÃO DELES
+
+/*
+ul{
+  list-style-position: inside;
+}
+
+ul li:nth-of-type(2){
+    color: red;
+}
+
+ul span:nth-child(6){
+    color: red;
+}
+*/
+
+/*
+
+
+.box{
+    width: 100%;
+}
+
+.item{
+    box-sizing: border-box;
+    float: left;
+    width: 33.3%;
+    background-color: red;
+    height: 300px;
+    border: 1px solid black;
+}
+
+PEGA ÚLTIMO ELEMENTO POR TIPO
+
+.box div:last-of-type, .box p:last-of-type{
+    background-color: green;
+}
+
+ÚLTIMO ELEMENTO FILHO (QUALQUER TIPO)
+
+.box div:last-child{
+    background-color: yellow;
+}
+
+APLICA PROPRIEDADES EM TODOS, EXCETO NO QUE
+FOI ESPECIFICADO
+
+.box div:not(.one){
+    background-color: gold;
+}
+
+APLICA PROPRIEDADES DEPOIS DO CONTEÚDO
+
+p::after{
+    content: "Emesson";
+    background-color: red;
+}
+
+APLICA PROPRIEDADES ANTES DO CONTEÚDO
+
+p::before{
+    content: "Emesson       ";
+    background-color: red;
+}
+
+
+*/
+
+.parent{
+    background-color: brown;
+    width: 100%;
+    text-align: center;
+}
+
+.item{
+    width: 300px;
+    height: 300px;
+    background-color: gold;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+/* (2N + 1) -> COMEÇE NO 1º, E A CADA 2 APLIQUE AS PROPRIEDADES) */
+
+.parent div:nth-of-type(3n + 2) > div.item{
+    background-color: red;
+}
+
+.parent p:first-child{
+    background-color:red;
+}
