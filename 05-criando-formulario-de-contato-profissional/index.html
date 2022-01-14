@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulário de contato</title>
+</head>
+<body>
+
+
+    <form>
+        <fieldset>
+            <legend>Meu grupo de formulário</legend>
+            <div><input type="text" name="nome" placeholder="Digite seu nome"></div>
+            <div><input type="text" name="email" placeholder="Digite seu e-mail"></div>
+
+            <select name="idade" id="13">
+                <option value="" disabled selected>Selecione sua idade</option>
+                <option value="10">até 10</option>
+                <option value="20">até 20</option>
+                <option value="50">até 50</option>
+            </select>
+
+            <h2>Qual sua cidade?</h2>
+            <div class="input">
+                <div><input name="cidade" type="radio" value="Serrolândia"><span>Serrolândia</span></div>
+                <div><input name="cidade" type="radio" value="Ipubi"><span>Ipubi</span></div>
+                <div><input name="cidade" type="radio" value="Serra Branca"><span>Serra Branca</span></div>
+            </div>
+            
+            <h2>Que comidas você gosta?</h2>
+            <div class="input">
+                <div><input name="comida[]" type="checkbox" value="Salada"><span>Salada</span></div>
+                <div><input name="comida[]" type="checkbox" value="Fast Food"><span>Fast Food</span></div>
+                <div><input name="comida[]" type="checkbox" value="Carnes"><span>Carnes</span></div>
+            </div>
+            
+            <div>
+                <textarea placeholder="Possui alguma observação?" name="observacao" id="" cols="30" rows="10"></textarea>
+            </div>
+
+            <div><input type="submit" name="acao" value="Enviar!"></div>
+            
+            
+
+        </fieldset>
+    </form>
+
+    <div class="meu-link">
+        <a href="../Personalizando-elementos-de-formularios/">Personalizando elementos de formulários</a>
+    </div>
+
+</body>
+</html>
