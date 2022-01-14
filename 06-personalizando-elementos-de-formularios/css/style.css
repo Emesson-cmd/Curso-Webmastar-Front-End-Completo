@@ -79,4 +79,33 @@ input[type="checkbox"]:checked + label{ /*O "+" FAZ REFERÊNCIA AO ELEMENTO EXAT
     background-position: center;
 }   
 
-/**/
+/* ESTILO DO LINK PARA PRÓXIMO CONTEÚDO  */
+
+.meu-link{
+    margin-top: 30px;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: blue;
+    vertical-align: center;
+    font-weight: bolder;
+}
+
+.meu-link:hover{
+    font-size: 30px;
+    color: lawngreen;
+}
+
+.meu-link:visited{
+    color: yellow;
+}
+
+.meu-link:link{
+    color: yellow;
+}
+
+.meu-link:active{
+    color: yellow;
+}
