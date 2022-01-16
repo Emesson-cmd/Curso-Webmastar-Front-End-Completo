@@ -28,9 +28,9 @@ table tr td{
 */
 
 .menu-fixed{
-    /* position: fixed; */ /*Baseado na tela (fixa ao rolar) */ /**/
-    /* position: absolute; */  /*Baseado na página (nao fixa ao rolar) */
-    /* position: relative; */ /* Relativo ao local onde ele estava */
+    /* position: fixed; */ /*Baseado na tela (o elemento fixa/não sai da tela ao rolar) */ /**/
+    /* position: absolute; */  /*Baseado na página (o elemento nao fixa ao rolar) */
+    /* position: relative; */ /* Relativo ao local onde ele estava. Exemplo: elemento pai */
     position: static; /* padrão */
     /*
     top: 100px;

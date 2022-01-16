@@ -3,6 +3,8 @@
     padding: 0;;
 }
 
+/* IMPORTAÇÃO POR DIRETÓRIO */
+
 @font-face {
     font-family: "Minha Fonte";
     src: url('../fonts/MochiyPopPOne-Regular.ttf');
@@ -25,8 +27,6 @@ Sem ">" significa todos os que estiverem dentro (inclusive as filhas das filhas)
 form  * {
     font-family: "Minha Fonte";
 }
-
-/* IMPORTAÇÃO POR DIRETÓRIO */
 
 .box p{ 
     font-family: "Minha Fonte" !important;

@@ -1,0 +1,125 @@
+/* RESETA DOCUMENTO */
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box; /*O elemento terá exatamento os tamanhos do width e height*/
+}
+
+html, body {
+    height: 100%;
+    overflow-y: hidden; /*Não existe scroolbar*/
+    overflow-x: hidden; /*Não existe scroolbar*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* CENTRALIZA A LOGO E MENU (NAV) */
+
+.center{
+    display: flex; /*Exibe o conteúdo de forma horizontal*/
+    flex-wrap: wrap; /*Faz o conteúdo "quebrar na linha" caso não tenha espaço*/
+    max-width: 1200px;
+    margin: 0 auto; /*Centralizar conteúdo*/
+    padding: 0 2%;
+}
+
+/* AFASTA O HEADER DO TOPO */
+
+header{
+    height: 200px;
+    padding: 20px 0;
+}
+
+/* FAZ A LOGO PEGAR METADE DO HEADER */
+
+.logo {
+    width: 50%;
+}
+
+/* FAZ O MENU PEGAR METADE DO HEADER */
+
+.menu{
+    width: 50%;
+    padding-top: 30px;
+    text-align: right;
+}
+
+/* DÁ ESTILO DO MENU */
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+section.sobre {
+    position: relative; /* assume uma posição fixa de acordo com a tela */
+    width: 100%;
+    height: calc(100% - 200px);
+}
+
+.extras{
+    position: absolute; /* leva em consideração a página por completo */
+    bottom: -250px;
+    right: -350px;
+    width: 850px;
+    height: 850px;
+    border-radius: 50%;
+    background-color: #017143;
+}
+
+.social-midias{
+    position: absolute;
+    top: 40px;
+    right: 360px;
+}
+
+.social-midias img {
+    display: block; /* os elementos ficam um em baixo do outro */
+    margin-top: 15px;
+    width: 25px;
+}
+
+.texto-sobre{
+    margin-top: 40px;
+}
+
+.texto-sobre h1{
+    font-size: 50px;
+}
+
+.texto-sobre p{
+    margin: 20px 0;
+    color: black;
+    max-width: 600px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.texto-sobre button{
+    border: 0;
+    background-color: #017143;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.copos {
+    position: absolute;
+    bottom: 0;
+    right: 38%;
+}
+
+.copos img {
+    padding: 0 30px;
+}
+
+.copos img:nth-child(3){
+    bottom: 5%;
+}
+
+/**/
