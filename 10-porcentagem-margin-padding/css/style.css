@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;;
+}
+
+html, body {
+    height: 100%;
+}
+
+/*
+*
+*
+Estilo para o conteúdo do nosso site
+*
+*
+*/
+
+.parent{
+    background-color: orange;
+    width: 50%;
+    height: 400px;
+}
+
+.box{
+    display: inline-block;
+    width: 80%;
+    height: 50%; /* 25% com base na largura do elemento pai. o body é o pai por default */
+    margin-top: 15%;
+    margin-left: 10%;
+    vertical-align: top;
+    background-color: gray;
+}
