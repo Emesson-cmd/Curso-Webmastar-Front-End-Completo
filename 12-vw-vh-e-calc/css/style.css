@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+/*
+No exemplo abaixo, utilizamos o calc para misturar porcentagem com pixels
+Dizemos que queremos que um elemento tenha 100% da largura da página. 
+No entanto, desses 100%, queremos remover 300px.
+
+.sidebar{
+    width: 300px;
+    height: 100%;
+    background-color: gray;
+    float: left;
+}
+
+.content{
+    width: calc(100% - 300px);
+    height: 100%;
+    float: left;
+    background-color: black;
+}
+*/
+
+/*
+Utilizando o calc de uma forma mais avançada
+
+.box{
+    /*width: calc(100% / 3);
+    /*width: calc((100% / 3) + 10px);
+    width: calc(((100% / 3) + 10px) - 100px);
+    height: 100%;
+    background-color: red;
+    float: left;
+    border: 1px solid green;
+}
+*/
+
+/*
+O vw e vh não leva em consideração o scroolbar. Ou seja, se você
+setar 100vw, e tiver um scrool bar na vertical, será criada um scroolbar
+na horizontal, pois a largura da scroolbar da vertical conta, ainda que seja
+somente um pouco. Podemos contornar isso com overflow: hidden.
+*/
+
+.box{
+    width: 100vw; /*Viewport Width = largura do viewport*/
+    height: 100vh; /*Viewport Height = altura do viewport*/
+    background-color: red;
+}
