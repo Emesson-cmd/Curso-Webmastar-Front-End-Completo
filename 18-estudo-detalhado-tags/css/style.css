@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+/************************* HEADER **********************/
+
+.menu-principal{
+    padding: 10px 0;
+    text-align: center;
+    background-color: gray;
+}
+
+.menu-principal > nav > ul{
+    list-style-type: none;
+}
+
+.menu-principal > nav > ul > li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+/************************* MAIN **********************/
+
+/* Menu Lateral */
+
+main > .menu-lateral{
+    float: right;
+    width: 25%;
+    height: 2123px;
+    background-color: cornflowerblue;
+    border: 1px dotted solid;
+    margin-top: 0;
+}
+
+main > .menu-lateral > h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+main > .menu-lateral > nav{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+main > .menu-lateral > nav > ul > li{
+    margin-top: 50px;
+    border: 1px solid black;
+    margin: 20px 20px;
+    list-style-type: none;
+    padding: 20px;
+}
+
+main > .menu-lateral > nav > ul > li:hover{
+    background-color: green;
+}
+
+/* Seção 1 */
+
+main > .sobre {
+    display: inline-block;
+    width: 75%;
+    height: auto;
+    background-color: brown;
+    border: 1px dotted solid;
+}
+
+main > .sobre > article > header > h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+main > .sobre > article > div > p{
+    margin: 20px 20px;
+}
+
+main > .sobre > article > footer{
+    margin: 20px 20px;
+    font-weight: bold;
+}
+
+/* Seção 2 */
+
+main > .informacoes{
+    display: inline-block;
+    width: 75%;
+    height: auto;
+    background-color: chocolate;
+    border: 1px dotted solid;
+}
+
+main > .informacoes > article > header > h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+main > .informacoes > article > div > p{
+    margin: 20px 20px;
+}
+
+main > .informacoes .imagem{
+    margin: 20px 20px;
+    background-image: url('../images/layout-html5.png');
+    background-size: 100% 100%;
+    width: 95%;
+    height: 400px;
+
+}
+
+main > .informacoes > article > footer{
+    margin: 20px 20px;
+    font-weight: bold;
+}
+
+/************************* FOOTER **********************/
+
+footer.rodape{
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+}
+
+.rodape .footer-1{
+    display: inline-block;
+    width: 33.3%;
+    height: max-content;
+    margin-right: -4px;
+    text-align: center;
+    margin-top: 40px;
+    background-color: red;
+    list-style-type: none;
+    list-style: none;
+}
+
+.rodape .footer-2{
+    display: inline-block;
+    width: 33.3%;
+    height: max-content;
+    margin-right: -4px;
+    text-align: center;
+    background-color: red;
+}

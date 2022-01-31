@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+.bloco-1{
+    max-width: 600px;
+    height: 120px;
+    margin: 20px auto;
+    background-color: yellow;
+    padding: 20px;
+}
+
+.bloco-2{
+    max-width: 600px;
+    height: 120px;
+    margin: 20px auto;
+    background-color: gray;
+    padding: 20px;
+}
+
+.bloco-3{
+    max-width:600px;
+    margin: 0 auto;
+    height: 120px;
+    background-color: pink;
+}
+
+.item {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    border: 1px solid black;
+    float:left;
+    margin: 10px auto;
+}
+
+.bloco-4{
+    max-width: 600px;
+    height: 100px;
+    background-color: orange;
+    margin: 20px auto;
+
+    padding-top: 50px;
+}
+
+.item-2 {
+    width: 200px;
+    height: 100px;
+    background-color: green;
+}
+
+/*
+    DIFERENÇA ENTRE MARGIN E PADDING
+
+    margin -> distancia de outro elementos (forma externa)
+    padding -> distância dos elementos internos
+
+    se o padding definido for maior que o elemento, ele crescerá.
+    
+    o padding pode afastar os elemento interno para fora dele.
+*/
+
+/*
+    DIFERENÇA ENTRE FLOAT: LEFT E DISPLAY: INLINE-BLOCK
+
+    Float left faz com que o elementos fiquem na mesma linha se puderem,
+    e caiam caso um elemento não caixa mais na linha.
+
+    O displai inline block faz com que os elementos fiquem na mesma linha,
+    no entanto ele cria uma margem (4px).
+
+    O float você precisa utilizar o clean: both para ele não atrapalhar os
+    elemento subsequentes, uma vez que ele não considerará as barreiras do
+    seu próprio elemento
+*/

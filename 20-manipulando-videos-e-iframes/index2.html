@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos no HTML5</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header{
+            width: 100%;
+            height: 40vh;
+            max-height: 700px;
+			overflow: hidden;/*quando defino o overflow (none != hidden), todos os elemento internos que ficaram do lado de fora, ficarão agora do lado de dentro, mesmo se não couber 100%.*/
+			position: relative; /*absolute: em relação ao documento; fixed: em relação a tela; relative: em relação ao elemento pai (body).*/
+            background-color: gray;
+        }
+
+        header video{
+			position: absolute; /*se o pai for relativo, então o absolute é relativo ao pai.*/
+			left: 0;
+			top: 50%; /*Desce 50% em relação à borda do topo*/
+			transform:translateY(-54%);
+			width: 100%;
+		}
+
+        .overlay{
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 1; /*quanto maior o valor, ele fica mais por cima*/
+            width: 100%;
+            height: 100%;
+            transition: 0.7s; /*velocidade que o hover é aplicado*/
+            background:rgba(0,0,0,0.8);
+        }
+
+        .overlay:hover{
+            background:rgba(0,0,0,0);
+        }
+
+        .overlay h2{
+            color: white;
+            font-size: 50px;
+            text-align: center;
+            position: absolute;
+            bottom: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <div class="overlay">
+            <h2>Sejam todos bem-vindos</h2>
+        </div>
+
+        <video autoplay loop muted>
+            <source src="videos/video-wallpaper.mp4" type="video/mp4">
+        </video>
+    </header>
+    
+</body>
+</html>
