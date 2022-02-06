@@ -1,0 +1,44 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+h1 {
+	text-align: center;
+}
+
+.box {
+	background-color: gray;
+	border: 1px solid black;
+	width: 400px;
+	height: 400px;
+}
+
+.box2 {
+	color: pink;
+	background-color: green;
+	width: 200px;
+	height: 200px;
+}
+
+.box > .box2 > span {
+	color: inherit;
+	width: fit-content;
+	height: inherit;
+	display: inline-block;
+	background-color: black;
+}
+
+/*
+Auto  =  Automático
+Inherente  =  Herdar
+Initial  =  Inicial
+*/
+
+/*
+Então o "inherit" herda do elemento pai
+*/

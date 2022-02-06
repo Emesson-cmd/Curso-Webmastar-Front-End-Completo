@@ -1,0 +1,14 @@
+h1 {
+	text-align: center;
+}
+
+.os_links {
+	margin: 0 auto;
+	width: fit-content;
+	border: 1px solid black;
+}
+
+.os_links > a, h3 {
+	margin: 0 auto;
+	padding: 10px;
+}

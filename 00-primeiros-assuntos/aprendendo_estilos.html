@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aprendendo CSS</title>
+	<link href="css/meu_outro_estilo.css" rel="stylesheet" type="text/css">>
+</head>
+<body>
+	<h1>Estilo 1</h1>
+	<h2>Estilo 2</h2>
+	<h3>Estilo 3</h3>
+	<h4>Estilo 4</h4>
+	<h5>Estilo 5</h5>
+
+	<div id="div1">
+		<p>Exemplo de estilização por id</p>
+	</div>
+
+	<div class="estilizar-classe">
+		<p>Exemplo de estilização por classe</p>
+	</div>
+
+	<div id="div3">
+		<h1>Exemplo de estilização por filha (Será estilizada)</h1>
+		<div>
+			<h1>Exemplo de estilização por filha (Não será estilizada)</h1>
+			<p>Esse texto não vai pegar estilização pois foi declarado que somente será atribuido as propriedades do CSS a filha caso ela esteja diretamente ligada a div fora dessa</p>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+h1 {
+	background-color: lightblue;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+
+  font-family: verdana;
+  font-size: 20px;
+}
+
+#div1{
+	color: green;
+}
+
+.estilizar-classe {
+	background-color: yellow;
+}
+
+#div3 > h1 {
+	text-align: center;
+	text-decoration-line: underline;
+}
