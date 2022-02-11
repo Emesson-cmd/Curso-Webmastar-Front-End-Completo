@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+}
+
+.box{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(red, red, red, red, red, red);
+    /*background: linear-gradient(to bottom right,red, red, red, red 30%, red, white 30%);*/
+    /*background-image: repeating-linear-gradient(red, yellow 10%, green 20%);*/
+    background: radial-gradient(circle, red, blue);
+    background: repeating-radial-gradient(circle, red, blue 10%, white 10%);
+}
+
+
+/*.box:hover{
+    
+    animation-name: animar_gradient;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    */
+
+    /*
+    animation: animar_gradient 0.5s infinite;
+    animation-delay: 0s;
+    
+}*/
+
+@keyframes animar_gradient{
+    0%{
+        background: linear-gradient(red, red, red, red, red, red);
+    }
+
+    10%{
+        background: linear-gradient(red, red, red, red, white, red);
+    }
+
+    20%{
+        background: linear-gradient(red, red, red, white, white, red);
+    }
+
+    30%{
+        background: linear-gradient(red, red, white, white, white, red);
+    }
+
+    40%{
+        background: linear-gradient(red, white, white, white, white, red);
+    }
+
+    50%{
+        background: linear-gradient(red, red, white, white, white, red);
+    }
+
+    60%{
+        background: linear-gradient(red, red, red, white, white, red);
+    }
+
+    70%{
+        background: linear-gradient(red, red, red, red, white, red);
+    }
+
+    100%{
+        background: linear-gradient(red, red, red, red, red, red);
+    }
+}
