@@ -1,0 +1,14 @@
+.box{
+    width: 100%;
+    padding: 20px 2%;
+    background-color: #CCC;
+}
+
+.box p{
+    display: inline;
+    border-bottom: 2px solid green;
+    word-wrap: break-word; /* força a quebra da palavra para caber dentro de algo */
+    white-space: nowrap; /* nunca vai quebrar a linha */
+    white-space: pre; /* faz com que os espaços e quebra de linhas em um parágrafos sejam interpretados */
+    white-space: pre-line; /* faz com que os espaços em um parágrafos sejam interpretados */
+}

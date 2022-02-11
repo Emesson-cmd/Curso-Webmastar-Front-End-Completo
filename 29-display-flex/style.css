@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+}
+
+main{
+    display: flex;
+    /*align-items: center;*/
+    /*flex-direction: row-reverse;*/
+    /*flex-direction: column;*/
+    /*flex-direction: column-reverse;*/
+}
+
+aside{
+    /*order: 2;*/
+    padding: 30px;
+    background-color: #ccc;
+}
+
+article{
+    /*order: 1;*/
+    padding: 30px;
+    background-color: gray;
+}
+
+/*
+DISPLAY FLEX: nessa forma de display o elementos que estiverem um ao lado do outro, o que tiver maior altura, todos os outros vão ter a mesma altura do elemento que tiver maior altura.
+
+flex-direction: row-reverse; -> essa propriedade faz com que os elementos que estão na mesma linha mudem de ordem, ou seja, troquem de posição/direção. O que estava em primeiro na linha, ficará como último.
+
+order: 1; -> essa propriedade faz com que os elementos assumam uma ordem específica na linha de acordo com o valor definido: quanto maior o valor, mais no fim da linha o elemento ficará.
+
+align-items: center; -> faz com que os elementos fiquem alinhados exatamento no centro tendo como referência o display: flex do maior elemento.
+*/
